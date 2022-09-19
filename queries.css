@@ -1,0 +1,257 @@
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    width: 80%;
+  }
+
+  .image-div {
+    text-align: center;
+    padding-bottom: 6.4rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-us {
+    margin-top: 6.4rem;
+    padding-left: 1rem;
+  }
+
+  .tel-email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav-list {
+    background: none;
+    border: none;
+    display: block;
+  }
+
+  .mobile-nav-icon {
+    height: 3.6rem;
+    width: 3.6rem;
+  }
+
+  .nav-open .mobile-nav-icon[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .mobile-nav-icon[name="menu-outline"] {
+    display: none;
+  }
+
+  .mobile-nav-icon[name="menu-outline"] {
+    display: block;
+  }
+
+  .mobile-nav-icon[name="close-outline"] {
+    display: none;
+  }
+
+  .nav-open .main-nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-open .main-nav {
+    transform: translateX(0%);
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+
+    background-color: rgba(255, 255, 255, 0.82);
+    width: 100%;
+    padding: 12rem 0 8rem 0;
+  }
+
+  .nav-open .btn-cta:link,
+  .nav-open .btn-cta:visited {
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 16px;
+    letter-spacing: 2px;
+  }
+
+  .nav-open .nav-link:link,
+  .nav-open .nav-link:visited {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+
+  .nav-open .nav-link:hover,
+  .nav-open .nav-link:active {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .nav-open .btn-cta:hover,
+  .nav-open .btn-cta:active {
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .social-media-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease-out;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .media-icon {
+    color: #444;
+  }
+
+  .gallery-image {
+    transition: all 0.3s;
+    height: 30rem;
+  }
+
+  /* Slider */
+
+  .slider-image-div {
+    padding-top: 20rem;
+    margin: 0 22.8rem 0 23rem;
+    gap: 153vw;
+  }
+
+  .slider-icons-div-forward {
+    top: 39rem;
+  }
+
+  .slider-icons-div-back {
+    top: 39rem;
+  }
+
+  .slider-status {
+    top: 12rem;
+    right: 45rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .service {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .service-img--odd {
+    justify-content: flex-start;
+  }
+
+  .service-img--even {
+    grid-row: 2;
+  }
+  .last-img {
+    width: 80%;
+  }
+  .last-service-text {
+    padding-right: 0;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* slider */
+
+  .slider-image-div {
+    padding-top: 20rem;
+    margin: 0 22.74rem 0 10rem;
+    gap: 143vw;
+  }
+
+  .slider-icons-div-forward {
+    top: 40rem;
+    right: 4rem;
+  }
+
+  .slider-icons-div-back {
+    top: 40rem;
+    left: 4rem;
+  }
+
+  .slider-status {
+    top: 15rem;
+    right: 35rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .name-input {
+    flex-direction: column;
+  }
+  .hero-image {
+    width: 100%;
+  }
+
+  .gallery {
+    padding: 3rem 0rem;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .gallery-image {
+    height: 20rem;
+  }
+
+  /* Slider */
+
+  .slider-image-div {
+    padding-top: 28rem;
+    margin: 0 22.74rem 0 0.24rem;
+    gap: 143vw;
+  }
+
+  .slider-icons-div-forward {
+    top: 40rem;
+    right: 4rem;
+  }
+
+  .slider-icons-div-back {
+    top: 40rem;
+    left: 4rem;
+  }
+
+  .slider-status {
+    top: 15rem;
+    right: 35rem;
+  }
+
+  .image-gallery--slider {
+    width: 38rem;
+    height: 38rem;
+  }
+}
